@@ -1,0 +1,178 @@
+<!-- https://developer.wathq.sa/ar/api/16#/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body>
+
+
+
+
+
+    <script>
+
+
+fetch('fullinfo.json').then(function (response){
+    return response.json();
+
+
+
+}).then(function (data) {
+    console.log(data.crName);
+    console.log(data.crEntityNumber);
+    console.log(data.issueDate);
+    console.log(data.expiryDate);
+
+    console.log('capital');
+    console.log(data.capital.paidAmount);
+    console.log(data.capital.subscribedAmount);
+    console.log(data.capital.announcedAmount);
+
+
+    console.log('share');
+    console.log(data.capital.share.sharePrice);
+    console.log(data.capital.share.sharesCount);
+
+    console.log(data.crMainNumber);
+
+    console.log('parties');
+ //   console.log(data.parties);
+   let length = data.parties.length;
+   for (let i = 0; i < length; i++) {
+ 
+    console.log(data.parties[i].name);
+    console.log(data.parties[i].birthDate);
+    console.log(data.parties[i].sharesCount);
+    console.log(data.parties[i].gross);
+
+
+    console.log('identity');
+console.log(data.parties[i].identity.id);
+    console.log(data.parties[i].identity.type);
+
+
+
+    console.log('relation');
+console.log(data.parties[i].relation.id);
+    console.log(data.parties[i].relation.name);
+
+
+
+    console.log('nationality');
+console.log(data.parties[i].nationality.id);
+    console.log(data.parties[i].nationality.name);
+
+
+}
+
+
+console.log('businessType');
+console.log(data.businessType.id);
+console.log(data.businessType.name);
+
+
+
+
+console.log('fiscalYear');
+console.log(data.fiscalYear.month);
+console.log(data.fiscalYear.day);
+console.log(data.fiscalYear.calendarType.id);
+console.log(data.fiscalYear.calendarType.name);
+
+
+console.log('status');
+console.log(data.status.id);
+console.log(data.status.name);
+console.log(data.status.nameEn);
+
+
+console.log('cancellation');
+console.log(data.cancellation.date);
+console.log(data.cancellation.reason);
+
+
+console.log('address');
+console.log(data.address.general.website);
+console.log(data.address.general.address);
+console.log(data.address.general.email);
+console.log(data.address.general.fax1);
+console.log(data.address.general.fax2);
+console.log(data.address.general.telephone1);
+console.log(data.address.general.telephone2);
+console.log(data.address.general.postalBox1);
+console.log(data.address.general.postalBox2);
+
+console.log('national');
+console.log(data.address.national.buildingNumber);
+console.log(data.address.national.additionalNumber);
+console.log(data.address.national.streetName);
+console.log(data.address.national.city);
+console.log(data.address.national.zipcode);
+console.log(data.address.national.unitNumber);
+console.log(data.address.national.district.id);
+console.log(data.address.national.district.name);
+
+
+console.log(data.isEcommerce);
+
+console.log('urls');
+//console.log(data.urls);
+   let urlslength = data.urls.length;
+   for (let i = 0; i < urlslength; i++) {
+
+    console.log(data.urls[i].name);
+    console.log(data.urls[i].type);
+    console.log(data.urls[i].typeId);}
+
+
+
+    console.log('location');
+    console.log(data.location.id);
+    console.log(data.location.name);
+    console.log('company');
+    console.log(data.company.period);
+    console.log(data.company.startDate);
+    console.log(data.company.endDate);
+
+
+    console.log('activities');
+    console.log(data.activities.description);
+
+    console.log('isic');
+
+    let isiclength = data.activities.isic.length;
+    for (let i = 0; i < isiclength; i++) {
+        console.log(data.activities.isic[i].id);
+        console.log(data.activities.isic[i].name);
+        console.log(data.activities.isic[i].nameEn);
+
+
+        
+    }
+
+
+
+
+
+
+
+    
+})
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+    
+</body>
+</html>
