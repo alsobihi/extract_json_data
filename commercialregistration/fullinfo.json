@@ -1,0 +1,112 @@
+
+{
+  "_reference": "https://developer.wathq.sa/ar/api/16#/",
+    "crName": "المحدودة XXX شركة",
+    "crNumber": "1010XXXX29",
+    "crEntityNumber": "700XXXX660",
+    "issueDate": "1391/10/19",
+    "expiryDate": "1443/08/10",
+    "capital": {
+      "paidAmount": 900000,
+      "subscribedAmount": 90000000,
+      "announcedAmount": 90000000,
+      "share": {
+        "sharePrice": 9000000,
+        "sharesCount": 10
+      }
+    },
+    "crMainNumber": null,
+    "parties": [
+      {
+        "name": "علي محمد XXXXXXX",
+        "birthDate": "XXXX/05/10",
+        "sharesCount": 1,
+        "gross": 900000,
+        "identity": {
+          "id": "1006XXXX47",
+          "type": "nid"
+        },
+        "relation": {
+          "id": 2,
+          "name": "شــريك"
+        },
+        "nationality": {
+          "id": "SA",
+          "name": "سعودي"
+        }
+      }
+    ],
+    "businessType": {
+      "id": "205",
+      "name": "مســــــــــاهمة"
+    },
+    "fiscalYear": {
+      "month": 2,
+      "day": 1,
+      "calendarType": {
+        "id": 1,
+        "name": "هجري"
+      }
+    },
+    "status": {
+      "id": "active",
+      "name": "السجل التجاري قائم",
+      "nameEn": "السجل التجاري قائم"
+    },
+    "cancellation": {
+      "date": "1440/05/01",
+      "reason": "تم الغاء السجل بسب..."
+    },
+    "address": {
+      "general": {
+        "website": "www.----.com",
+        "address": "الرياض حي السليمانية طريق مكه (خريص )",
+        "email": "info@------.com",
+        "fax1": "49XXXX0",
+        "fax2": "49XXXX1",
+        "telephone1": "49XXXX7",
+        "telephone2": "49XXXX6",
+        "postalBox1": "0040XX",
+        "postalBox2": "0040XX"
+      },
+      "national": {
+        "buildingNumber": "1234",
+        "additionalNumber": "1234",
+        "streetName": "شارع تركي السديري",
+        "city": "الرياض",
+        "zipcode": "1XXX5",
+        "unitNumber": "2",
+        "district": {
+          "id": 101,
+          "name": "حي السليمانية"
+        }
+      }
+    },
+    "isEcommerce": true,
+    "urls": [
+      {
+        "name": "www.example.com",
+        "type": "منصة التوثيق",
+        "typeId": 1
+      }
+    ],
+    "location": {
+      "id": "1010",
+      "name": "الرياض"
+    },
+    "company": {
+      "period": "10",
+      "startDate": "1439/01/12",
+      "endDate": "1449/01/12,"
+    },
+    "activities": {
+      "description": "البيع بالجملة و التجزئة للحبوب والبذور",
+      "isic": [
+        {
+          "id": "477211",
+          "name": "أنشطة المواد الغذائية",
+          "nameEn": null
+        }
+      ]
+    }
+  }
