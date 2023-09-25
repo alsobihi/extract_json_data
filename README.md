@@ -4,6 +4,15 @@
 Data Reference [wathq.sa](https://developer.wathq.sa)
 
 
+## SPL   -  سبل
+
+   - ### National Address  العنوان الوطني  [API](https://developer.wathq.sa/ar/api/17)
+
+   * Sample Data From API [National_Address.json](spl/National_Address.json)
+   * Extract Data in php [National_Address.php](spl/National_Address.php)
+
+
+
 ## Ministry of Commerce - وزارة التجارة
 
    - ### Commercial Registration السجل التجاري [API](https://developer.wathq.sa/ar/api/16)
