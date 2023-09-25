@@ -1,0 +1,24 @@
+[
+    {
+      "title": "مطعم ومعجنات السندباد",
+      "address": "8411 King Fahd Rd - Al Muruj Dist.",
+      "address2": "RIYADH 12263 - 2743",
+      "latitude": "24.75014397",
+      "longitude": "22.72224397",
+      "buildingNumber": "2455",
+      "street": "King Fahd Rd",
+      "district": "Al Muruj Dist",
+      "districtId": "2422",
+      "city": "RIYADH",
+      "cityId": "3",
+      "postCode": "12263",
+      "additionalNumber": "14433",
+      "regionName": "Al Riyadh",
+      "regionId": "1",
+      "isPrimaryAddress": true,
+      "unitNumber": "1",
+      "restriction": null,
+      "pkAddressId": "1226384672743",
+      "status": "Active"
+    }
+  ]
